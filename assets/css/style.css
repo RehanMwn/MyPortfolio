@@ -1060,6 +1060,16 @@ p {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1); }
+  .highlight-link {
+        color: #A53A42;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .highlight-link:hover {
+        color: #7e2b31; /* warna lebih gelap saat hover */
+        text-decoration: underline;
+    }
 
 /*===========================
   }
